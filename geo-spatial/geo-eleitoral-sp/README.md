@@ -1,12 +1,12 @@
-# Análise Geográfica do Perfil Educacional dos Eleitores de São Paulo (2022)
+# Geographic Analysis of São Paulo Voters' Educational Profile (2022)
 
-## Sobre este projeto
+## About this project
 
-Este diretório contém um projeto independente de análise geoespacial com foco no perfil educacional do eleitorado de São Paulo em 2022, usando dados públicos do TSE.
+This directory contains a standalone geospatial analysis project focused on the educational profile of São Paulo's electorate in 2022, using public data from Brazil's TSE.
 
-O fluxo principal está no notebook `perfil_eleitoral_sp_2022.ipynb`.
+The main workflow is in the notebook `perfil_eleitoral_sp_2022.ipynb`.
 
-## Estrutura da pasta
+## Folder structure
 
 ```text
 geo-eleitoral-sp/
@@ -17,57 +17,57 @@ geo-eleitoral-sp/
     └── SP_Municipios_2024.shp
 ```
 
-## Pré-requisitos
+## Prerequisites
 
 - Python 3.8+
 - `pip`
-- Jupyter Notebook (ou JupyterLab)
+- Jupyter Notebook (or JupyterLab)
 
-## Como executar (apenas este projeto)
+## How to run (this project only)
 
-### 1) Entre na pasta do projeto
+### 1) Enter the project folder
 
 ```bash
 cd geo-eleitoral-sp
 ```
 
-### 2) Crie e ative um ambiente virtual (recomendado)
+### 2) Create and activate a virtual environment (recommended)
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 ```
 
-### 3) Instale as dependências
+### 3) Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4) Baixe o CSV do TSE
+### 4) Download the TSE CSV
 
-Baixe o arquivo de eleitorado 2022 de SP e salve em:
+Download the 2022 São Paulo electorate file and save it as:
 
 `data/perfil_eleitor_secao_2022_SP.csv`
 
-Fonte oficial:
+Official source:
 https://dadosabertos.tse.jus.br/dataset/eleitorado-2022/resource/a83ff021-02e3-45b9-8f9a-a17632af9bb8
 
-### 5) Execute o notebook
+### 5) Run the notebook
 
 ```bash
 jupyter notebook perfil_eleitoral_sp_2022.ipynb
 ```
 
-## Dados utilizados
+## Data used
 
-- `data/perfil_eleitor_secao_2022_SP.csv` (download manual do TSE)
-- `data/SP_Municipios_2024.shp` (limites municipais de SP)
+- `data/perfil_eleitor_secao_2022_SP.csv` (manual download from TSE)
+- `data/SP_Municipios_2024.shp` (São Paulo municipal boundaries)
 
-## Resultado esperado
+## Expected output
 
-Geração de mapas e análises da distribuição geográfica dos níveis de escolaridade do eleitorado paulista por município.
+Maps and analyses of the geographic distribution of educational levels across São Paulo municipalities.
 
-## Licença
+## License
 
-Este projeto está sob a licença MIT.
+This project is licensed under MIT.

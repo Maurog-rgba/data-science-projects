@@ -1,12 +1,12 @@
-# Análise de Letras das Músicas do TOP Brasil Spotify
+# Analysis of Spotify Top Brasil Song Lyrics
 
-## Sobre este projeto
+## About this project
 
-Este diretório contém um projeto independente de análise de texto aplicado às letras das músicas da playlist TOP Brasil do Spotify.
+This directory contains a standalone text analysis project focused on song lyrics from Spotify's Top Brasil playlist.
 
-O fluxo principal está no notebook `spotify_br_nlp.ipynb`.
+The main workflow is in the notebook `spotify_br_nlp.ipynb`.
 
-## Estrutura da pasta
+## Folder structure
 
 ```text
 lyrics-sentiment-analysis/
@@ -15,47 +15,47 @@ lyrics-sentiment-analysis/
 └── README.md
 ```
 
-## Pré-requisitos
+## Prerequisites
 
 - Python 3.8+
 - `pip`
-- Jupyter Notebook (ou JupyterLab)
+- Jupyter Notebook (or JupyterLab)
 
-## Como executar (apenas este projeto)
+## How to run (this project only)
 
-### 1) Entre na pasta do projeto
+### 1) Enter the project folder
 
 ```bash
 cd lyrics-sentiment-analysis
 ```
 
-### 2) Crie e ative um ambiente virtual (recomendado)
+### 2) Create and activate a virtual environment (recommended)
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 ```
 
-### 3) Instale as dependências
+### 3) Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4) Execute o notebook
+### 4) Run the notebook
 
 ```bash
 jupyter notebook spotify_br_nlp.ipynb
 ```
 
-## Principais análises realizadas
+## Main analyses included
 
-- Contagem de palavras totais e palavras únicas por música
-- Frequência de termos recorrentes
-- Análise de sentimento das letras
-- Medidas de repetição textual
-- Visualizações com Matplotlib, Seaborn e Plotly
+- Total and unique word counts per song
+- Frequency of recurring terms
+- Lyrics sentiment analysis
+- Text repetition metrics
+- Visualizations with Matplotlib, Seaborn, and Plotly
 
-## Licença
+## License
 
 MIT
